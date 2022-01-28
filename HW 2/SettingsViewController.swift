@@ -14,7 +14,7 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var redLabel: UILabel!
     @IBOutlet weak var greenLabel: UILabel!
-    @IBOutlet weak var blueLabel: UILabel!
+     @IBOutlet weak var blueLabel: UILabel!
     
     @IBOutlet weak var redSlider: UISlider!
     @IBOutlet weak var greenSlider: UISlider!
@@ -133,7 +133,7 @@ extension SettingsViewController {
         keyboardToolBar.sizeToFit()
 
         let flexBarButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        let doneBarButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(self.doneClick))
+        let doneBarButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(doneClick))
         keyboardToolBar.setItems([flexBarButton, doneBarButton], animated: false)
 
         redTextField.inputAccessoryView = keyboardToolBar
