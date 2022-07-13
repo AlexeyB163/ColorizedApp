@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  HW 2
 //
-//  Created by Alexey Efimov on 12.06.2018.
-//  Copyright © 2018 Alexey Efimov. All rights reserved.
+//  Created by User on 28.01.2022.
 //
 
 import UIKit

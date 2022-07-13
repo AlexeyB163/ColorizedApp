@@ -3,7 +3,6 @@
 //  HW 2
 //
 //  Created by User on 25.01.2022.
-//  Copyright © 2022 Alexey Efimov. All rights reserved.
 //
 
 import UIKit
